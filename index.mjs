@@ -1,8 +1,8 @@
 import { Command } from 'commander';
 import { readdirSync, writeFileSync, rmdirSync, existsSync, mkdirSync } from 'fs';
 import tfnode from '@tensorflow/tfjs-node';
-// import Upscaler from 'upscaler/node-gpu';
-import Upscaler from 'upscaler/node';
+import Upscaler from 'upscaler/node-gpu';
+// import Upscaler from 'upscaler/node';
 
 const upscaler = new Upscaler({
   // model: 'div2k-2x',
