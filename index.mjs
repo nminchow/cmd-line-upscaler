@@ -5,8 +5,8 @@ import tfnode from '@tensorflow/tfjs-node';
 import Upscaler from 'upscaler/node';
 
 const upscaler = new Upscaler({
-  // model: 'div2k-2x',
-  // scale: 2,
+  model: 'div2k-2x',
+  scale: 2,
 });
 
 const program = new Command();
