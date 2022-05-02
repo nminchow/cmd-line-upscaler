@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@canvas/image-data@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@canvas/image-data/-/image-data-1.0.0.tgz#3bd2cd856e13fc9e2c25feff360a4056857b0367"
-  integrity sha512-BxOqI5LgsIQP1odU5KMwV9yoijleOPzHL18/YvNqF9KFSGF2K/DLlYAbDQsWqd/1nbaFuSkYD/191dpMtNh4vw==
-
 "@mapbox/node-pre-gyp@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.4.tgz#6c76e7a40138eac39e1a4dc869a083e43e236c00"
@@ -216,6 +211,11 @@ argparse@^1.0.10:
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
+
+async@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -801,10 +801,10 @@ tr46@~0.0.3:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
-upscaler@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/upscaler/-/upscaler-0.12.1.tgz#19eee6bb941345764b3ebbe595c6f54660f2e26e"
-  integrity sha512-KTmyFtKrdKqXGJPtCkndOn8Gt5O+qC70bbtU9mgiZNcqsnh/thONXsaU6RUVm6jVFGS4biVVO4TLJjkcfAGfBQ==
+upscaler@^0.12.3:
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/upscaler/-/upscaler-0.12.3.tgz#814385b0c0f9f8313c4c4422b7f01e638b8571dc"
+  integrity sha512-wRDqRTjF1F8P94WbnFIbGDsWovrXXQf7jGgjt6Cqg0ScJ67npP1DwClSv/jdtZ0TEa8XNnf7SuNKOVKxsIZfTQ==
   dependencies:
     isomorphic-fetch "^3.0.0"
     tensor-as-base64 "^0.1.1"
